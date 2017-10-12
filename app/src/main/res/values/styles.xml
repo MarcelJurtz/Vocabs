@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="lessonButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lesson_button_height</item>
+        <item name="android:background">@drawable/lesson_button</item>
+        <item name="android:layout_marginLeft">@dimen/lesson_button_spacing</item>
+        <item name="android:layout_marginRight">@dimen/lesson_button_spacing</item>
+        <item name="android:layout_marginTop">@dimen/lesson_button_spacing</item>
+        <item name="android:layout_marginBottom">@dimen/lesson_button_spacing</item>
+        <item name="android:textColor">@color/pattern_blue</item>
+    </style>
+
+    <style name="lessonButtonTop" parent="lessonButton">
+        <item name="android:layout_marginTop">@dimen/lesson_button_top_spacing</item>
+    </style>
+
 </resources>

@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="pattern_blue">#0599AF</color>
+    <color name="pattern_turquoise">#10B9C0</color>
+    <color name="pattern_white">#F3F2E3</color>
+    <color name="pattern_red">#EE918C</color>
+    <color name="pattern_pink">#E8284F</color>
 </resources>
