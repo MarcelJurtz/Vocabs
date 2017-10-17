@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.jurtz.marcel.vocabs.MainActivity"
-    android:background="@color/pattern_blue">
+    android:background="@color/white">
 
     <ScrollView
         android:layout_width="match_parent"
