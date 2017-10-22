@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Vocabs</string>
+
+    <string name="edit_vocab_question">Frage</string>
+    <string name="edit_vocab_answer">Antwort</string>
+    <string name="edit_vocab_information">Information</string>
 </resources>

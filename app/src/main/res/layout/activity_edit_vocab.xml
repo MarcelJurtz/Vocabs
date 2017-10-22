@@ -5,5 +5,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.jurtz.marcel.vocabs.EditVocabActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/llLessonContainer">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lesson_button_spacing"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/edit_vocab_question"/>
+            <EditText
+                android:id="@+id/txtVocabQuestion"
+                style="@style/vocab_textview"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lesson_button_spacing"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/edit_vocab_answer"/>
+            <EditText
+                android:id="@+id/txtVocabAnswer"
+                style="@style/vocab_textview" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lesson_button_spacing"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/edit_vocab_information"/>
+            <EditText
+                android:id="@+id/txtVocabInfo"
+                style="@style/vocab_textview" />
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
